@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" type="text/css" href="shopping-cart-style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <ul id="navbar">
+            <li><i class="fas fa-bars"></i></li>
+            <li>Comfy House</li>
+            <li><i class="fas fa-shopping-cart" id="cart-symbol"></i></li>
+        </ul>
+
+        <div id="cover-photo">
+            <div id="cover-box">
+                <h1>Furniture Collection</h1>
+                <button><a href="#shop-page">Shop Now</a></button>
+            </div>
+        </div>
+
+        <div class="cart">
+            <!-- njnjkkkkkkkkkkkkkkkkk -->
+            <div class="cross-cart">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="your-cart">Your Cart</div>
+            <div class="cart-product">
+                <img src="bed.jpg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Queen Panel Bed</span>
+                    <span class="cart-product-price">$10.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="king-bed.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">King Panel Bed</span>
+                    <span class="cart-product-price">$12.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="single-bed.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Single Panel Bed</span>
+                    <span class="cart-product-price">$12.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="double-bed.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Double Panel Bed</span>
+                    <span class="cart-product-price">$22.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="fridge.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Fridge</span>
+                    <span class="cart-product-price">$8.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="couch.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Couch</span>
+                    <span class="cart-product-price">$32.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="dresser.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Table</span>
+                    <span class="cart-product-price">$45.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div class="cart-product">
+                <img src="table.jpeg">
+                <div class="cart-product-desc">
+                    <span class="cart-product-name">Dresser</span>
+                    <span class="cart-product-price">$33.99</span>
+                    <button class="remove">remove</button>
+                </div>
+                <div class="cart-product-quantity">
+                    <a><i class="fas fa-minus minus-quantity"></i></a>
+                    <span>0</span>
+                    <a><i class="fas fa-plus plus-quantity"></i></a>
+                </div>
+            </div>
+
+            <div id="cart-total">Your Total : $<span>0.00</span></div>
+
+            <button id="clear-cart">Clear Cart</button>
+            
+
+        </div>
+
+        <div id="shop-page">
+            <h1>Our Products</h1>
+            <div id="products">
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="bed.jpg"><div class="product-name">Queen Panel Bed</div><div class="price">$10.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="king-bed.jpeg"><div class="product-name">King Panel Bed</div><div class="price">$12.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="single-bed.jpeg"><div class="product-name">Single Panel Bed</div><div class="price">$12.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="double-bed.jpeg"><div class="product-name">Double Panel Bed</div><div class="price">$22.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="fridge.jpeg"><div class="product-name">Fridge</div><div class="price">$8.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="couch.jpeg"><div class="product-name">Couch</div><div class="price">$32.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="table.jpeg"><div class="product-name">Table</div><div class="price">$45.99</div></div>
+                <div class="product1"><span><button>Add to cart</button></span><img class="product-img" src="dresser.jpeg"><div class="product-name">Dresser</div><div class="price">$33.99</div></div>
+            </div>
+        </div>
+        
+        <script src="shopping-cart-script.js"></script>
+    </body>
+</html>
